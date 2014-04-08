@@ -1,0 +1,13 @@
+<form id="noark">
+	<label>File ID</label>
+	<input id="caseFileId" type="text" name="caseFileId" required="required" value="$caseFileId" />
+	<br />
+	<label>Title</label>
+	<input id="caseTitle" type="text" name="caseTitle" required="required" value="$caseTitle" />
+	<br />
+	<label>Official title</label>
+	<input id="caseOfficialTitle" type="text" name="caseOfficialTitle" value="$caseOfficialTitle" />
+	<br />
+	<br />
+	<input id="input" type="submit" name="submit" value="Submit" />
+</form>

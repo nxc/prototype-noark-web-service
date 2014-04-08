@@ -1,0 +1,13 @@
+<form id="noark">
+	<label>Name</label>
+	<input id="partyName" type="text" name="partyName" required="required" value="$partyName" />
+	<br />
+	<label>Mailing address</label>
+	<input id="partyMailingAddress" type="text" name="partyMailingAddress" required="required" value="$partyMailingAddress" />
+	<br />
+	<label>Phone number</label>
+	<input id="partyPhoneNumber" type="text" name="partyPhoneNumber" required="required" value="$partyPhoneNumber" />
+	<br />
+	<br />
+	<input id="input" type="submit" name="submit" value="Submit" />
+</form>

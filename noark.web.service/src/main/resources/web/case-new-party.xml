@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Method not supported.</title>
+		<style type="text/css">
+			#parse("/web/style.css")
+		</style>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			#parse("/web/script.js")
+		</script>
+	</head>
+
+	<body>
+
+		<h3>Oops, it seems like this method is not supported.</h3>
+
+		<h4>Create a new party and attach it to the case:</h4>
+
+		#parse("/web/forms/party-form.xml")
+
+		<p id="result" />
+
+		<br />
+
+		<h4>Alternatively:</h4>
+
+		<p class="example">
+			curl -i -X PUT -H 'Content-Type: application/json' -d '{"partyName":"Jack Johnson", "partyMailingAddress":"Abelsgate 10, Trondheim, Norway", "partyPhoneNumber":"1122 3344" }' $url
+		</p>
+
+		<br />
+
+		<h4>Or attach an existing party to the case:</h4>
+
+		<p class="example2">
+			curl -i -X PUT -H 'Content-Type: application/json' -d '{"systemId":"PARTY_SYSTEM_ID_HERE"}' $url
+		</p>
+
+	</body>
+
+</html>

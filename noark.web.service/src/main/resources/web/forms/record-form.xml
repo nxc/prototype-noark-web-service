@@ -1,0 +1,10 @@
+<form id="noark">
+	<label>Title</label>
+	<input id="recordTitle" type="text" name="recordTitle" required="required" value="$recordTitle" />
+	<br />
+	<label>Official title</label>
+	<input id="recordOfficialTitle" type="text" name="recordOfficialTitle" value="$recordOfficialTitle" />
+	<br />
+	<br />
+	<input id="input" type="submit" name="submit" value="Submit" />
+</form>

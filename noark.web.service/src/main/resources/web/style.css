@@ -1,0 +1,34 @@
+body {
+	color: #000000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form#noark label {
+	width: 80px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+form#noark input {
+	width: 150px;
+	margin-right: 10px;
+}
+
+form#noark :required {
+	border-color: #11b8ff;
+	-webkit-box-shadow: 0 0 5px rgba(17, 184, 255, .75);
+	-moz-box-shadow: 0 0 5px rgba(17, 184, 255, .75);
+	-o-box-shadow: 0 0 5px rgba(17, 184, 255, .75);
+	-ms-box-shadow: 0 0 5px rgba(17, 184, 255, .75);
+	box-shadow: 0 0 5px rgba(17, 184, 255, .75);
+}
+
+p.example {
+	background-color: #A9F5D0;
+	padding: 1em
+}
+
+p.example2 {
+	background-color: #FFFF99;
+	padding: 1em
+}
